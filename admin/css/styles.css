@@ -1,0 +1,181 @@
+/* Admin styles for wpCdnKoloss */
+.wpcdnkoloss .card.full-width {
+  max-width: 100%;
+}
+
+.wpcdnkoloss .hidden {
+  display: none;
+}
+
+.wpcdnkoloss, .wpcdnkoloss * {
+  box-sizing: border-box;
+}
+
+.wpcdnkoloss *:focus {
+  outline: none;
+}
+
+.wpcdnkoloss .is-loading {
+  opacity: 0.5;
+}
+
+.wpcdnkoloss-search-form .spinner {
+  display:none;
+  float:none;
+  width:auto;
+  height:auto;
+  padding:5px 0 5px 25px;
+  background-position:0px 0;
+  margin:0;
+}
+
+.wpcdnkoloss-search-form .spinner.is-active {
+  display: inline;
+}
+
+.wpcdnkoloss-search-result {
+  display: none;
+}
+
+.wpcdnkoloss-search-result::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wpcdnkoloss-search-result-list {
+  width: 30%;
+  display: inline-block;
+}
+
+ .wpcdnkoloss-search-result-list ul {
+   max-height: 385px;
+   overflow-y: auto;
+ }
+
+.wpcdnkoloss-search-result-detail {
+  width: 70%;
+  display: inline-block;
+  float: right;
+}
+
+.wpcdnkoloss-search-result.has-result {
+  display: block;
+}
+
+.search-cdn-result-item {
+  border-bottom: 1px solid #a8a8a8;
+  width: 100%;
+  margin: 0;
+}
+
+.search-cdn-result-item.active, .search-cdn-result-item:hover {
+  background: #e5e5e5;
+}
+
+.search-cdn-result-item:nth-child(even) {}
+
+.search-cdn-result-item .item-wrapper::after , .search-cdn-result-item .item-wrapper a::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.search-cdn-result-item .item-wrapper a {
+  display: block;
+  padding: 10px;
+}
+
+.search-cdn-result-item .item-wrapper i {
+  float: right;
+}
+
+.search-cdn-result-item span {
+  float: left;
+  line-height: 24px;
+}
+
+.search-cdn-result-item .item-wrapper a .spinner {
+  float: left;
+  margin: 0 5px 0 0;
+  display: none;
+}
+
+.search-cdn-result-item .item-wrapper a .spinner.is-active {
+  display: inline;
+}
+
+.search-cdn-result-detail-item {
+  padding: 0 0 0 20px;
+}
+
+.search-cdn-result-detail-item .item-assets-header::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.search-cdn-result-detail-item h3 {
+  float: left;
+}
+
+.search-cdn-result-detail-item .choose-version {
+  float: right;
+  margin: 1em 0;
+}
+
+.search-cdn-result-detail-item .item-assets-list {
+  max-height: 208px;
+  overflow-y: auto;
+}
+
+.search-cdn-result-detail-item .asset-list-item .item-wrapper .item-wrapper-name {
+  float: left;
+}
+
+.search-cdn-result-detail-item .asset-list-item .item-wrapper .item-wrapper-include-in,
+.search-cdn-result-detail-item .asset-list-item .item-wrapper .item-wrapper-include {
+  float: right;
+}
+
+.search-cdn-result-detail-item .asset-list-item .item-wrapper .item-wrapper-include {
+  margin: 0 0 0 10px;
+}
+
+.search-cdn-result-detail-item .asset-list-item .item-wrapper .item-wrapper-include .spinner {
+  display: none;
+  margin: 3px 0 0 5px;
+}
+
+.search-cdn-result-detail-item .asset-list-item .item-wrapper .item-wrapper-include .spinner.is-active {
+  display: inline-block;
+}
+
+.search-cdn-result-detail-item .asset-list-item .item-wrapper::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wpcdnkoloss-files-list .spinner {
+  display: none;
+  margin: 3px 0 0 5px;
+}
+
+.wpcdnkoloss-files-list .spinner.is-active {
+  display: inline-block;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
